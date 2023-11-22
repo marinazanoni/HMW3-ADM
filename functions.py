@@ -126,13 +126,12 @@ def return_cost(text):
         if len(filtered_list)>=1:
             return(max(filtered_list))
 
-
 def rank_documents(query1):
     """
     Given a query, computes the tfidf for that query and evaluate the cosine similarity con for query given
-    the document extracted with engine function. Returns the top-k documents
+    the document extracting with engine function. Returns the top-k documents
     """
-    ## COMPUTING THE TFIDF FOR THE QUERY
+    ## COMPUTING THE IFIDF FOR THE QUERY
 
    # Tokenize the query and save the stammed words for computinf tfidf
     tokens = word_tokenize(query1)
@@ -153,17 +152,24 @@ def rank_documents(query1):
     k_top_results = []
 
     # Iterate over the documents
-    for idx, document_text in enumerate(functions.engine(query1)['description']):
+    for idx, document_text in enumerate(engine(query1)['description']):
 
-        for index, tfidf in inverted_index_2['air']:
-            if index in functions.engine('air pollution')['description'].index:
-                print('nel documento',{index}, 'la cosine similarity e',tfidf)
+        # Tokenize and preprocess the document text
+        document_tokens = [stemmer.stem(word) for word in word_tokenize(document_text)]
+        document_text_processed = ' '.join(document_tokens)
+
+        # Transform the document text using the fitted vectorizer
+        tfidf_document = tfidf_vectorizer.transform([document_text_processed])
+
         # Compute cosine similarity between the query and the document
         similarity_score = cosine_similarity(tfidf_query, tfidf_document)[0, 0]
 
+        # Display the cosine similarity score
+        #print("Cosine Similarity Score:", similarity_score,idx)
+
        ## USING A HEAP TO HAVE THE TOP-K DOCUMENTS
         # Append the similarity score and document index to the k_top_results list
-        k_top_results.append((round(similarity_score,5), functions.engine(query1)['description'].index[idx]))
+        k_top_results.append((round(similarity_score,5), engine(query1)['description'].index[idx]))
 
 
     # Retrieve the k-top results from the heap using nlargest
