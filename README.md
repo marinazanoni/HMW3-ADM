@@ -6,11 +6,10 @@ __Components:__
 3. Giuliana Prinzi
 4. Marina Zanoni
 
-## Breef summary of the project:
-
+## Brief summary of the project:
+The project consist in 
 
 # Files
-`vocabulary.csv`:[]
-`vocabulary.json`:[]
-`inverted_index`:[]
-``
+`HMW_ADM3`:[Notebook with all answer to the Assignment];
+`final_clq.sh`:[comman line question];
+`README.md`:[information about the repository];
