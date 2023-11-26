@@ -18,4 +18,4 @@ We pursued master's degrees through an online website. We then development multi
 
 
 ## Note
-Most functions are in the `functions.py` file. There all comments and description of the implementation can be found.
+Most functions are in the `functions.py` file. There all their comments and description can be found.
