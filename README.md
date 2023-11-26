@@ -1,7 +1,7 @@
 # HW3_ADM - Group 7
 
 __Components:__ 
-1. Omid Ghorbaniai ()
+1. Omid Ghorbaniai
 2. Matteo Pazzini (1868953)
 3. Giuliana Prinzi (1952137)
 4. Marina Zanoni (1964213)
