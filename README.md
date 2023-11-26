@@ -10,6 +10,6 @@ __Components:__
 We pursued master's degrees through an online website. We then development multiple engines designed to adress users' research queries. These queries encompassed diverse topics such as fees, locations, and the choice between online or on-campus studies. A version of it also featured an additional geographical representation or interactive widgets to enhance user experience. In addition to this,we tackled the challenge of scheduling Leonardo's work by implementing an algorithm."
 
 # Files
-`HMW_ADM3`:[Notebook with all answer to the Assignment];
-`final_clq.sh`:[comman line question];
-`README.md`:[information about the repository];
+[`HMW_ADM3`]():Notebook with all answer to the Assignment;
+[`final_clq.sh`]():comman line question;
+[`README.md`](https://github.com/marinazanoni/HMW3-ADM/edit/main/README.md) : information about the repository;
