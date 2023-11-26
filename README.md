@@ -13,5 +13,5 @@ We pursued master's degrees through an online website. We then development multi
 - [`HMW_ADM3`](https://github.com/marinazanoni/HMW3-ADM/blob/main/HMW_ADM3.ipynb):Notebook with all answer to the Assignment
 - [`final_clq.sh`](https://github.com/marinazanoni/HMW3-ADM/blob/main/final-clq.sh):command line question
 - [`custom_functions.py`](https://github.com/marinazanoni/HMW3-ADM/edit/main/functions.py) : crawler, parser and engine functions we use in the Notebook
-- [`functions.py`](https://github.com/marinazanoni/HMW3-ADM/edit/main/customs_functions.py) : other functions are useful in the Notebook we just call there and store in this .py file for readibility
+- [`functions.py`](https://github.com/marinazanoni/HMW3-ADM/edit/main/customs_functions.py) : other useful functions for the Notebook we call there and store in this .py file for readibility
 - [`README.md`](https://github.com/marinazanoni/HMW3-ADM/edit/main/README.md) : information about the repository
