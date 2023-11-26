@@ -7,7 +7,7 @@ __Components:__
 4. Marina Zanoni
 
 ## Brief summary of the project:
-The project consist in 
+We pursued master's degrees through an online website. We then development multiple engines designed to adress users' research queries. These queries encompassed diverse topics such as fees, locations, and the choice between online or on-campus studies. A version of it also featured an additional geographical representation or interactive widgets to enhance user experience. In addition to this,we tackled the challenge of scheduling Leonardo's work by implementing an algorithm."
 
 # Files
 `HMW_ADM3`:[Notebook with all answer to the Assignment];
